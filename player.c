@@ -26,9 +26,9 @@ void player_init(Player* player) {
 
 void player_display(Player* player) {
     printf("%s's stats: \n", player->name);
-    printf(" - 💖 Health: %d\n", player->health);
-    printf(" - 🍕 Hunger: %d\n", player->hunger);
-    printf(" - 🌊 Thirst: %d\n", player->thirst);
+    printf(" - Health: %d\n", player->health);
+    printf(" - Hunger: %d\n", player->hunger);
+    printf(" - Thirst: %d\n", player->thirst);
 }
 
 void player_visit_place(Player* player, Place* place) {
