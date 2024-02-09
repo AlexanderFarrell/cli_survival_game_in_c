@@ -30,7 +30,7 @@ const Place places[] = {
     {
         .name = "Valley",
         .message = "You find water and berries"
-                   "and dance with the unicorns",
+                   " and dance with the unicorns",
         .modifier_count = 3,
         .modifiers = {
             {Health, 5},
@@ -50,7 +50,7 @@ const Place places[] = {
     },
     {
         .name = "Mountain",
-        .message = "You're freezing ❄",
+        .message = "You're freezing",
         .modifier_count = 2,
         .modifiers = {
             {Health, -20},
